@@ -445,7 +445,7 @@ print(student)  # Output: {'name': 'John', 'age': 22, 'gpa': 3.8}
 List comprehensions provide a concise way to create lists in Python. They are an elegant alternative to using loops and append() for creating lists. The syntax is straightforward and often results in more readable and compact code.
 
 
-#  Python Library
+# Python Library
 ### 1. Overview of standard library
 Python’s standard library is very extensive, offering a wide range of facilities. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers, as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.
 
@@ -478,7 +478,7 @@ a = np.array([4, 16, 25])
 b = np.sqrt(a) # Square root element-wise ([2. 4. 5.])
 ```
 
-#  Error Handling
+# Error Handling
 ### 1. Exception handling and best practices
 
 Errors are problems in a program that causes the program to stop its execution. On the other hand, exceptions are raised when some internal events change the program’s normal flow. 

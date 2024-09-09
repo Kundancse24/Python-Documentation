@@ -6,7 +6,7 @@
 2. [Basic Syntax And Structure ](#basic-syntax-and-structure)
 3. [Object-Oriented Programming In Python](#object-oriented-programming-in-python)
 4. [Python Collections](#python-collections)
-5. [Python Libraries ](#python-libraries)
+5. [Python Library ](#python-librarary)
 6. [Error Handling](error-handling)
 7. [References](#references) 
    

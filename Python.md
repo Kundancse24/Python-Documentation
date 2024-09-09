@@ -446,10 +446,10 @@ List comprehensions provide a concise way to create lists in Python. They are an
 
 
 #  Python Library
-### Overview of standard library
+### 1. Overview of standard library
 Python’s standard library is very extensive, offering a wide range of facilities. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers, as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.
 
-### Popular third-party libraries: NumPy.
+### 2. Popular third-party libraries: NumPy.
 The NumPy library offers a wide variety of functions that allow you to perform advanced mathematical calculations, create arrays, matrix, and much more. Here are some of the most relevant functions: 
 #### Install NumPy on your computer.
 ```
@@ -479,7 +479,7 @@ b = np.sqrt(a) # Square root element-wise ([2. 4. 5.])
 ```
 
 #  Error Handling
-### Exception handling and best practices
+### 1. Exception handling and best practices
 
 Errors are problems in a program that causes the program to stop its execution. On the other hand, exceptions are raised when some internal events change the program’s normal flow. 
 #### Example:

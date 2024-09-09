@@ -27,7 +27,7 @@ Update your package list to ensure you have the latest versions of available pac
 sudo apt update
 ```
 
-# 2. Basic Syntax and Structure
+#  Basic Syntax and Structure
 ### Data types, variables, and constants
 Python is a dynamically typed language, meaning that you don’t need to declare the type of a variable explicitly. The type is determined at runtime based on the value assigned to the variable. Here’s an overview of the basic data types, variables, and constants in Python.
 ### 1. Data Types in Python
@@ -237,7 +237,7 @@ result = add_ten(5)
 print(result)  # Output: 15
 ```
 
-# 3. Object-Oriented Programming in Python
+#  Object-Oriented Programming in Python
 ### 1. Classes and objects
 #### Class
 A class is a blueprint for creating objects. It defines a set of attributes (variables) and methods (functions) that the objects created from the class will have.
@@ -361,7 +361,7 @@ account.withdraw(300)
 print(account.get_balance())  # Output: 1200
 ```
 
-# 4. Python Collections
+#  Python Collections
 ### 1. Lists, tuples, sets, and dictionaries
 #### Lists
 A list is an ordered collection of items that are mutable (i.e., you can change, add, or remove items). Lists are defined using square brackets [].
@@ -445,7 +445,7 @@ print(student)  # Output: {'name': 'John', 'age': 22, 'gpa': 3.8}
 List comprehensions provide a concise way to create lists in Python. They are an elegant alternative to using loops and append() for creating lists. The syntax is straightforward and often results in more readable and compact code.
 
 
-# 5. Python Library
+#  Python Library
 ### Overview of standard library
 Python’s standard library is very extensive, offering a wide range of facilities. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers, as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.
 
@@ -478,7 +478,7 @@ a = np.array([4, 16, 25])
 b = np.sqrt(a) # Square root element-wise ([2. 4. 5.])
 ```
 
-# 6. Error Handling
+#  Error Handling
 ### Exception handling and best practices
 
 Errors are problems in a program that causes the program to stop its execution. On the other hand, exceptions are raised when some internal events change the program’s normal flow. 

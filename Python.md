@@ -10,7 +10,7 @@
 6. [Error Handling](error-handling)
 7. [References](#references) 
    
-# 1. Introduction to Python
+#  Introduction to Python
 ### Overview and history of Python
 Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, Python has become one of the most popular programming languages globally.
 ### Installation and setup

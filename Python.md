@@ -520,7 +520,7 @@ finally:
 ```
 The finally block is executed no matter what, whether an exception is raised or not. It is often used for cleanup actions
 ### Debugging techniques
-#### Debugging with print statement
+#### 1. Debugging with print statement
 Print statements are one of the most used and straightforward  debugging techniques in Python. Print statements can help you track the flow of your program and detect which sections are creating errors. 
 #### Example:
 ```

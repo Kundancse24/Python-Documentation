@@ -140,15 +140,19 @@ if condition:
 else:
     # code to execute
 ```
-* elif Statement: Used for multiple conditions.
+* Multiple-if(elif Statement): Used for multiple conditions.
 ```
 if condition1:
     # code to execute
 elif condition2:
     # code to execute
+elif condition3:
+    # code to execute
 else:
     # code to execute
 ```
+* Performance: If there are many conditions, the time complexity is O(n), where n is the number of conditions. This means the performance degrades linearly as more conditions are added.
+  
 * match Statement (Python 3.10+): Similar to switch-case in other languages.
 ```
 match variable:
@@ -159,6 +163,13 @@ match variable:
     case _:
         # default case
 ```
+* Performance: Generally more efficient than multiple if-elif-else statements, especially when dealing with a large number of cases. Which can provide constant-time complexity O(1) for each case lookup. This optimization is more 
+  efficient than sequentially evaluating multiple if-elif-else statements.
+#### Performance Comparison  
+* Small Number of Cases: For a small number of cases, both if-elif-else and match-case will perform similarly. The difference in CPU cycles may be negligible.
+* Large Number of Cases: As the number of cases grows, match-case (or switch-case in other languages) typically becomes more efficient. This is because it can use jump tables or hash tables internally, leading to faster lookups compared 
+  to sequentially checking multiple if-elif-else conditions.
+  
 ### 3. Loops in Python
 Loops allow you to execute a block of code repeatedly.
 * for Loop: Iterates over a sequence (such as a list, tuple, or string).

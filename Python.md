@@ -140,7 +140,7 @@ if condition:
 else:
     # code to execute
 ```
-* Multiple-if(elif Statement): Used for multiple conditions.
+* CPU Cycle in Multiple-if(elif Statement): Used for multiple conditions.
 ```
 if condition1:
     # code to execute
@@ -153,7 +153,7 @@ else:
 ```
 * Performance: If there are many conditions, the time complexity is O(n), where n is the number of conditions. This means the performance degrades linearly as more conditions are added.
   
-* match Statement (Python 3.10+): Similar to switch-case in other languages.
+* CPU Cycle in match Statement (Python 3.10+): Similar to switch-case in other languages.
 ```
 match variable:
     case value1:
